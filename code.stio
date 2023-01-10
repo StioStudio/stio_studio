@@ -1,4 +1,8 @@
 
+var window = makeWindow("I am a window", "autoResize")
+
+window.show(true)
+window.
 
 var {const, global, obj|} test(a)(e)what = {
     hei = "wow",
@@ -8,7 +12,5 @@ var {const, global, obj|} test(a)(e)what = {
 
 console.log(|test(a)(e)what.hi|)
 
-option on var::
-number/num, string/text, boolean, function/func, object/obj, class, 
 
 
