@@ -1,4 +1,6 @@
 
+console.show()
+
 var window = makeWindow("I am a window", "autoResize")
 
 window.show(true)
@@ -12,5 +14,9 @@ var {const, global, obj|} test(a)(e)what = {
 
 console.log(|test(a)(e)what.hi|)
 
-
+function if(_boolean)then(_code) = {
+    if(_boolean){
+        
+    }
+}
 
