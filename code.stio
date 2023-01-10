@@ -1,0 +1,14 @@
+
+
+var {const, global, obj|} test(a)(e)what = {
+    hei = "wow",
+    kva = "kva"
+    hi = a + e
+}
+
+console.log(|test(a)(e)what.hi|)
+
+option on var::
+number/num, string/text, boolean, function/func, object/obj, class, 
+
+
