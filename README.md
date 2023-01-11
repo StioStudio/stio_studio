@@ -18,7 +18,7 @@ var, let, int, float, function
 The thing that defines the variable. Can be anything in the "Variabel definitions"  
  |      Options. This is optional. It can be anything in the "Option on variable"  
  |      |           The name of the variable  
- |      |           |        Can be =, +=, -=, *=, /=, ^=, add, change, subtract, multiply, divide, squareroot, sqrt, truncate,  
+ |      |           |        Can be =, +=, -=, *=, /=, ^=, add, change, subtract, multiply, divide, squareroot, sqrt,  
  |      |           |        |      The value of the variable  
  |      |           |        |      |  
 var {string} I_am_a_variable = "hello world"
@@ -71,6 +71,7 @@ function ceiling(_num);
 function floor(_num);
 
 function sqrt(_nun);
+function squareroot(_nun);
 
 function pick_random(_num1)to(_num2);
 function random_from(_num1)to(_num2);
@@ -92,7 +93,7 @@ function letter(_num)of(_string);
 
 function length_of(_string);
 
-function (_string)contains(_string);
+function (_string1)contains(_string2);
 
 ```
 ### How to get the raw function
