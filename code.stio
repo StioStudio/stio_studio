@@ -6,17 +6,18 @@ var window = makeWindow("I am a window", "autoResize")
 window.show(true)
 window.
 
-var {const, global, obj|} test(a)(e)what = {
+var {const, global, obj} test(a)(e)what = {
     hei = "wow",
-    kva = "kva"
-    hi = a + e
+    kva = "kva",
+    hi = a + e,
 }
 
-console.log(|test(a)(e)what.hi|)
+console.log(test(a)(e)what.hi)
 
 function if(_boolean)then(_code) = {
     if(_boolean){
-        
+        _code
     }
 }
+
 

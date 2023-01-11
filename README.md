@@ -7,7 +7,7 @@ Pleas give me ideas of how it whouled have worked. By making a issue or a commen
 
 
 ### Options on variable:
-number/num, string/text, boolean/bool, function/func/def, object/obj, class, int/floot, 
+number/num, string/text, boolean/bool, function/func/def, object/obj/struct, class, int/float, 
 
 ### Variabel definitions
 var, let, int, float, function
@@ -54,6 +54,24 @@ object console = {
     function warning(message),
 }
 
+function cos(_num)
+
+function sin(_num)
+
+function mod(_num1, _num2)
+
+function pick_random(_num1)to(_num2)
+function random_from(_num1)to(_num2)
+
+function (_bool1)and(_bool2)
+
+function (_bool1)nand(_bool2)
+
+function (_bool1)or(_bool2)
+
+function (_bool1)xor(_bool2)
+
+function not(_bool)
 
 ```
 ### How to get the raw function
