@@ -26,30 +26,30 @@ var {string} I_am_a_variable = "hello world"
 
 ### Some functions:
 ```js
-for(){
+function for(){
     //your code
 }
 //just like the normal for loop
 
-repeat(times){
+function repeat(times){
     //your code
 }
 
-while(boolan){
+function while(boolan){
     //your code
 }
 
-forever{
+function forever{
     //your code
 }
 
 object console = {
-    show(boolean),
-    hide(boolean),
-    log(message),
-    error(message),
-    warn(message),
-    warning(message),
+    function show(boolean),
+    function hide(boolean),
+    function log(message),
+    function error(message),
+    function warn(message),
+    function warning(message),
 }
 
 
