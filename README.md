@@ -18,7 +18,7 @@ var, let, int, float, function
 The thing that defines the variable. Can be anything in the "Variabel definitions"  
  |      Options. This is optional. It can be anything in the "Option on variable"  
  |      |           The name of the variable  
- |      |           |        Can be =, +=, -=, *=, /=,  
+ |      |           |        Can be =, +=, -=, *=, /=, ^=, add, change, subtract, multiply, divide, squareroot, sqrt, truncate,  
  |      |           |        |      The value of the variable  
  |      |           |        |      |  
 var {string} I_am_a_variable = "hello world"
