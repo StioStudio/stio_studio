@@ -54,4 +54,8 @@ object console = {
 
 
 ```
-
+### How to get the raw function
+( This is because all functions runs automaticly, even if they don't have a () in the name )
+```js
+|I_am_a_function|
+```
