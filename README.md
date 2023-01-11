@@ -7,13 +7,13 @@ Pleas give me ideas of how it whouled have worked. By making a issue or a commen
 
 
 ### Options on variable:
-number/num, string/text, boolean, function/func/def, object/obj, class, int/floot, 
+number/num, string/text, boolean/bool, function/func/def, object/obj, class, int/floot, 
 
 
 ### How to make a variable.
 ```
 The thing that defines the variable. Can be var, let, int, float, function,  
- |      Options. This is optional. It can be anything in the "option on variable"  
+ |      Options. This is optional. It can be anything in the "option on variable", lets you define the variable type, and its visibility, and turning it to a constant 
  |      |           The name of the variable  
  |      |           |        Can be =, +=, -=, *=, /=,  
  |      |           |        |      The value of the variable  
@@ -36,7 +36,7 @@ while(boolan){
     //your code
 }
 
-forever{
+forever(){
     //your code
 }
 
