@@ -18,7 +18,7 @@ var, let, int, float, function
 The thing that defines the variable. Can be anything in the "Variabel definitions"  
  |      Options. This is optional. It can be anything in the "Option on variable"  
  |      |           The name of the variable  
- |      |           |        Can be =, +=, -=, *=, /=, ^=, add, change, subtract, multiply, divide, squareroot, sqrt,  
+ |      |           |        Can be =, +=, -=, *=, /=, ^=, add, change, subtract, multiply, divide, mod, and, nand, or, xor,  
  |      |           |        |      The value of the variable  
  |      |           |        |      |  
 var {string} I_am_a_variable = "hello world"
@@ -26,6 +26,17 @@ var {string} I_am_a_variable = "hello world"
 
 ### Some functions:
 ```js
+object option = {
+    //The things here edit how the code 
+    //(I don't know what to place here)
+    object variable = {
+        object var = {
+
+        }
+    },
+
+}
+
 function for(){
     //your code
 };
@@ -54,6 +65,24 @@ object console = {
     function warning(_message),
 };
 
+object window = {
+    function make(_id), {
+        //what the function gives.
+        function open(_bool),
+        function close(_bool),
+        function open,
+        function close,
+        function show(_bool),
+        function hide(_bool),
+        function show,
+        function hide,
+        object draw = {
+            //some drawing functions
+        },
+    }
+};
+
+
 function cos(_num);
 
 function sin(_num);
@@ -77,10 +106,14 @@ function pick_random(_num1)to(_num2);
 function random_from(_num1)to(_num2);
 
 function (_bool1)and(_bool2);
+function (_bool1)&(_bool2);
+function (_bool1)&&(_bool2);
 
 function (_bool1)nand(_bool2);
 
 function (_bool1)or(_bool2);
+function (_bool1)|(_bool2);
+function (_bool1)||(_bool2);
 
 function (_bool1)xor(_bool2);
 
@@ -97,7 +130,7 @@ function (_string1)contains(_string2);
 
 ```
 ### How to get the raw function
-( This is because all functions runs automaticly, even if they don't have a () in the name )
+This is because all functions runs automaticly, even if they don't have a () in it
 ```js
 |I_am_a_function|
 ```
