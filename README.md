@@ -46,6 +46,8 @@ function forever{
 object console = {
     function show(boolean),
     function hide(boolean),
+    function show,
+    function hide,
     function log(message),
     function error(message),
     function warn(message),
