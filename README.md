@@ -3,9 +3,6 @@
 This is a language I want to make in the future :)
 Pleas give me ideas of how it whouled have worked. By making a issue or a comment on: https://scratch.mit.edu/users/stio_studio/
 
-
-
-
 ### Options on variable:
 number/num, string/text, boolean/bool, function/func/def, object/obj/struct, class, int/float, 
 
@@ -66,7 +63,7 @@ object console = {
 };
 
 object window = {
-    function make(_id), {
+    function make, {
         //what the function gives.
         function open(_bool),
         function close(_bool),
@@ -76,6 +73,14 @@ object window = {
         function hide(_bool),
         function show,
         function hide,
+        var x,
+        var y,
+        var height,
+        var width,
+        function max,
+        function min,
+        function fullscreen(_bool),
+        function fullscreen,
         object draw = {
             //some drawing functions
         },

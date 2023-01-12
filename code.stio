@@ -1,10 +1,13 @@
 
 console.show()
 
-var window = makeWindow("I am a window", "autoResize")
+var my_window = window.make
+my_window.open
+my_window.show
+my_window.max
+my_window.fullscreen
 
-window.show(true)
-window.
+my_window.draw.text("Hello")at_x(100)y(200)
 
 var {const, global, obj} test(a)(e)what = {
     hei = "wow",
