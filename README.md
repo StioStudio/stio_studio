@@ -4,10 +4,10 @@ This is a language I want to make in the future :)
 Pleas give me ideas of how it whouled have worked. By making a issue or a comment on: https://scratch.mit.edu/users/stio_studio/
 
 ### Options on variable:
-number/num, string/text, boolean/bool, function/func/def, object/obj/struct, class, int/float, 
+number/num, string/text, boolean/bool, function/func/def, object/obj/struct, class, int/float, (anything that can be an option to how the variable store and get used)
 
 ### Variabel definitions
-var, let, int, float, function
+var, let, int, float, function, const, (it is pretty much all variables defenisions that exist)
 
 ### How to make a variable.
 
