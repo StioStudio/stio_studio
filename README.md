@@ -151,3 +151,46 @@ This is because all functions runs automaticly, even if they don't have a () in 
 ```js
 |I_am_a_function|
 ```
+
+### Some ways to make functions/variables
+```js
+//making the function
+function hello(hello) = {
+    console.log(hello);
+};
+//using the function
+hello("why?");
+
+//making the function
+function [a]+[b]hei = {
+    //I don't know how to show this XD
+    //maybe:
+    return a+b; //I don't know
+};
+//using the function
+20+10hei;
+
+//making the function
+function [vec1]+[vec2]hadde = {
+    return Vec2(vec1.x + vec2.x, vec1.y + vec2.y);
+};
+//using the function
+Vec(20, 20)+Vec2(10, 10)hadde; // returns Vec2(30, 30)
+
+//making the function
+class Vec2 = {
+    let x 
+    let y    
+
+    function print() =
+    {
+        console.log("X: " + x + " Y: " + y)   
+    }
+}
+//using the function
+Vec2.x = 20
+Vec2.y = 30
+Vec2.print(); // prints the x and y values
+
+
+```
