@@ -43,11 +43,23 @@ function repeat(times){
     //your code
 };
 
+function loop(time_in_seconds){
+    //your code
+};
+
 function while(boolan){
     //your code
 };
 
 function forever{
+    //your code
+};
+
+function setTimeout(time_in_seconds){
+    //your code
+};
+
+function setInterval(time_in_seconds){
     //your code
 };
 
