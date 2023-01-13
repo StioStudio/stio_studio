@@ -39,15 +39,15 @@ function for(){
 };
 //just like the normal for loop
 
-function repeat(times){
+function repeat(num times){
     //your code
 };
 
-function loop(time_in_seconds){
+function loop(num time_in_seconds){
     //your code
 };
 
-function while(boolan){
+function while(bool boolan){
     //your code
 };
 
@@ -55,17 +55,17 @@ function forever{
     //your code
 };
 
-function setTimeout(time_in_seconds){
+function setTimeout(num time_in_seconds){
     //your code
 };
 
-function setInterval(time_in_seconds){
+function setInterval(num time_in_seconds){
     //your code
 };
 
 object console = {
-    function show(_bool),
-    function hide(_bool),
+    function show(bool _bool),
+    function hide(bool _bool),
     function show,
     function hide,
     function log(_message),
@@ -77,12 +77,12 @@ object console = {
 object window = {
     function make, {
         //what the function gives.
-        function open(_bool),
-        function close(_bool),
+        function open(bool _bool),
+        function close(bool _bool),
         function open,
         function close,
-        function show(_bool),
-        function hide(_bool),
+        function show(bool _bool),
+        function hide(bool _bool),
         function show,
         function hide,
         var x,
@@ -91,7 +91,7 @@ object window = {
         var width,
         function max,
         function min,
-        function fullscreen(_bool),
+        function fullscreen(bool _bool),
         function fullscreen,
         object draw = {
             //some drawing functions
@@ -100,46 +100,46 @@ object window = {
 };
 
 
-function cos(_num);
+function cos(num _num);
 
-function sin(_num);
+function sin(num _num);
 
-function (_num1)mod(_num2);
+function (num _num1)mod(num _num2);
 
-function abs(_num);
-function absolute(_num);
+function abs(num _num);
+function absolute(num _num);
 
-function round(_num);
+function round(num _num);
 
-function ceil(_num);
-function ceiling(_num);
+function ceil(num _num);
+function ceiling(num _num);
 
-function floor(_num);
+function floor(num _num);
 
-function sqrt(_nun);
-function squareroot(_nun);
+function sqrt(num _nun);
+function squareroot(num _nun);
 
-function pick_random(_num1)to(_num2);
-function random_from(_num1)to(_num2);
+function pick_random(num _num1)to(num _num2);
+function random_from(num _num1)to(num _num2);
 
-function (_bool1)and(_bool2);
-function (_bool1)&(_bool2);
-function (_bool1)&&(_bool2);
+function (bool _bool1)and(bool _bool2);
+function (bool _bool1)&(bool _bool2);
+function (bool _bool1)&&(bool _bool2);
 
-function (_bool1)nand(_bool2);
+function (bool _bool1)nand(bool _bool2);
 
-function (_bool1)or(_bool2);
-function (_bool1)|(_bool2);
-function (_bool1)||(_bool2);
+function (bool _bool1)or(bool _bool2);
+function (bool _bool1)|(bool _bool2);
+function (bool _bool1)||(bool _bool2);
 
-function (_bool1)xor(_bool2);
+function (bool _bool1)xor(bool _bool2);
 
-function not(_bool);
+function not(bool _bool);
 
 function join(_string1)with(_string2);
 function join(_string1)(_string2);
 
-function letter(_num)of(_string);
+function letter(num _num)of(_string);
 
 function length_of(_string);
 
@@ -171,7 +171,7 @@ function [a]+[b]hei = {
 20+10hei;
 
 //making the function
-function [vec1]+[vec2]hadde = {
+function [num vec1]+[num vec2]ha_det = {
     return Vec2(vec1.x + vec2.x, vec1.y + vec2.y);
 };
 //using the function

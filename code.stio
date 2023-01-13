@@ -15,9 +15,10 @@ var {const, global, obj} test(a)(e)what = {
     hi = a + e,
 }
 
-console.log(test(a)(e)what.hi)
+console.log(test(2)(3)what.hi)
+//logs 5
 
-function if(_boolean)then(_code) = {
+function if(bool _boolean)then(function _code) = {
     if(_boolean){
         _code
     }
