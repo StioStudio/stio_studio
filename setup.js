@@ -1,6 +1,6 @@
 import {stio} from "./compiler.js"
 
-await stio.download("./code.stio")
+await stio.upload("./code.stio")
 
 let out = stio.files[0].split("\r\n");
 
