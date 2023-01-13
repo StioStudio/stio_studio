@@ -188,8 +188,9 @@ class Vec2 = {
     }
 }
 //using the function
-Vec2.x = 20
-Vec2.y = 30
+
+var {Vec2, const} vec = Vec2(20, 30)
+
 Vec2.print(); // prints the x and y values
 
 
