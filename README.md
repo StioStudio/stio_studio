@@ -4,14 +4,44 @@ This is a language I want to make in the future :)
 Pleas give me ideas of how it whouled have worked. By making a issue or a comment on: https://scratch.mit.edu/users/stio_studio/
 
 ### Options on variable:
-number/num, string/text, boolean/bool, function/func/def, object/obj/struct, class, int/float, (anything that can be an option to how the variable store and get used)
+```js
+number / num 
+
+string / text
+
+boolean / bool
+
+function / func / def
+
+object / obj / struct
+
+class
+
+int / float
+```
+
+Anything that can be an option is to how the variable is stored and used.
+
 
 ### Variabel definitions
-var, let, int, float, function, const, (it is pretty much all variables defenisions that exist)
+Of pretty much all variables defenisions that exist, we have those:
+```js
+var
 
-### How to make a variable.
+let
 
+int
+
+float
+
+function
+
+const
 ```
+
+### How to make a variable:
+
+```js
 The thing that defines the variable. Can be anything in the "Variabel definitions"  
  |      Options. This is optional. It can be anything in the "Option on variable"  
  |      |           The name of the variable  
@@ -20,33 +50,36 @@ The thing that defines the variable. Can be anything in the "Variabel definition
  |      |           |        |      |  
 var {string} I_am_a_variable = "hello world"
 ```
-You can use () and []  
-They is a way to take in inputs.  
-() Makes it is you need to have a () in your function, so like this:  
+You can use `()` and `[]` when adding parameters to a function 
+
+`()` Does so, that you need to have a () in your function when giving a parameter, like this:  
 ```js
-//Make the function
+// Create the function
 var hello(e) = (
     console.log(e);
 );
-//Use the function
+// Use the function
 hello("hi");
 ```
-[] Makes it so you don't need anything (you can have () if you want), so like this:
+
+<br>
+
+`[]` does so that you don't need to use `()` at all, (you can have `()` if you want), like this:
 ```js
-//Make the function
+// Create the function
 var hello[e] = (
     console.log(e);
 );
-//Use the function
+// Use the function
 hello"hi"
 ```
-{} is the same as ()
+`{}` for opening functions are same as the `()`.
 
 ### Some functions (that is in the compiler) :
 ```js
 object option = {
-    //The things here edit how the code 
-    //(I don't know what to place here)
+    // The things here edit how the code 
+    // (I don't know what to place here)
     object variable = {
         object var = {
 
@@ -56,32 +89,32 @@ object option = {
 }
 
 function for(){
-    //your code
+    // your code
 };
-//just like the normal for loop
+// just like the normal for loop
 
 function repeat(num times){
-    //your code
+    // your code
 };
 
 function loop(num time_in_seconds){
-    //your code
+    // your code
 };
 
-function while(bool boolan){
-    //your code
+function while(bool boolean){
+    // your code
 };
 
 function forever{
-    //your code
+    // your code
 };
 
 function setTimeout(num time_in_seconds){
-    //your code
+    // your code
 };
 
 function setInterval(num time_in_seconds){
-    //your code
+    // your code
 };
 
 object console = {
@@ -96,7 +129,7 @@ object console = {
 };
 
 object window = {
-    function make, {
+    function create, {
         //what the function gives.
         function open(bool _bool),
         function close(bool _bool),
@@ -115,7 +148,7 @@ object window = {
         function fullscreen(bool _bool),
         function fullscreen,
         object draw = {
-            //some drawing functions
+            // some drawing functions
         },
     }
 };
@@ -182,7 +215,7 @@ function hello(hello) = {
 //using the function
 hello("why?");
 
-//making the function
+// creating the function
 function [a]+[b]hei = {
     //I don't know how to show this XD
     //maybe:
@@ -191,17 +224,13 @@ function [a]+[b]hei = {
 //using the function
 20+10hei;
 
-//making the function
-function [num vec1]+[num vec2]ha_det = {
-    return Vec2(vec1.x + vec2.x, vec1.y + vec2.y);
-};
-//using the function
-Vec(20, 20)+Vec2(10, 10)hadde; // returns Vec2(30, 30)
 
-//making the function
-class Vec2 = {
-    let x 
-    let y    
+////// Structs
+
+// create the Vec2 class and print function for it
+struct Vec2 = {
+    let x { int }
+    let y { int }
 
     function print() =
     {
@@ -216,3 +245,7 @@ Vec2.print(); // prints the x and y values
 
 
 ```
+
+### License
+
+stio_studio is Apache License 2.0 licensed and MIT licensed.
