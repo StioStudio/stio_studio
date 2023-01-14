@@ -225,10 +225,10 @@ function [a]+[b]hei = {
 20+10hei;
 
 
-////// Structs
+////// Classes and structs
 
 // create the Vec2 class and print function for it
-struct Vec2 = {
+class Vec2 = {
     let x { int }
     let y { int }
 
@@ -237,7 +237,7 @@ struct Vec2 = {
         console.log("X: " + x + " Y: " + y)   
     }
 }
-//using the function
+// using the function
 
 var {Vec2, const} vec = Vec2(20, 30)
 
