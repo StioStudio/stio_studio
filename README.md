@@ -52,7 +52,7 @@ var {string} I_am_a_variable = "hello world"
 ```
 You can use `()` and `[]` when adding parameters to a function 
 
-`()` Does so, that you need to have a () in your function when giving a parameter, like this:  
+`()` Does so, that you need to have a `()` in your function when giving a parameter, like this:  
 ```js
 // Create the function
 var hello(e) = (
