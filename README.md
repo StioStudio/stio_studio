@@ -248,4 +248,4 @@ Vec2.print(); // prints the x and y values
 
 ### License
 
-stio_studio is Apache License 2.0 licensed and MIT licensed.
+stio_studio is MIT licensed.
