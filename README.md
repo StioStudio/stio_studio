@@ -20,8 +20,29 @@ The thing that defines the variable. Can be anything in the "Variabel definition
  |      |           |        |      |  
 var {string} I_am_a_variable = "hello world"
 ```
+You can use () and []  
+They is a way to take in inputs.  
+() Makes it is you need to have a () in your function, so like this:  
+```js
+//Make the function
+var hello(e) = (
+    console.log(e);
+);
+//Use the function
+hello("hi");
+```
+[] Makes it so you don't need anything (you can have () if you want), so like this:
+```js
+//Make the function
+var hello[e] = (
+    console.log(e);
+);
+//Use the function
+hello"hi"
+```
+{} is the same as ()
 
-### Some functions:
+### Some functions (that is in the compiler) :
 ```js
 object option = {
     //The things here edit how the code 
