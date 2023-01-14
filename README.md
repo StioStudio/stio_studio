@@ -41,7 +41,7 @@ const
 
 ### How to make a variable:
 
-```js
+```
 The thing that defines the variable. Can be anything in the "Variabel definitions"  
  |      Options. This is optional. It can be anything in the "Option on variable"  
  |      |           The name of the variable  
