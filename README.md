@@ -78,7 +78,7 @@ hello"hi"
 ### Some functions (that is in the compiler) :
 ```js
 object option = {
-    // The things here edit how the code 
+    // The things here edit how the code works. So you can edit everything (not recommended for new coders)
     // (I don't know what to place here)
     object variable = {
         object var = {
