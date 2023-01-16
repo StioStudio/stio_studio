@@ -1,5 +1,6 @@
 
 let stio = {
+    
     files: [],
 
     async download(_file) {
@@ -10,11 +11,13 @@ let stio = {
                 return Response.text()
             })
 
+        let rem;
         await stio_file.then(e => {
-            stio.files.push(e)
+            rem = e
         })
+        return rem
     },
 
 }
 
-export {stio}
+export { Install_Compiler }
