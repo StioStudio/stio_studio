@@ -1,7 +1,7 @@
 import { Install_Compiler } from "./compiler.js"
 await eval(Install_Compiler("./compiler.js"))
 
-await stio.download("./code.stio")
+await stio.upload("./code.stio")
 
 let out = stio.files[0].split("\r\n");
 

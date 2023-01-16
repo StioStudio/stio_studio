@@ -3,7 +3,7 @@ let stio = {
     
     files: [],
 
-    async download(_file) {
+    async upload(_file) {
         let stio_file = fetch(_file)
             .then(Response => {
                 return Response;
