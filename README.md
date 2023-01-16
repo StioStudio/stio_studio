@@ -4,7 +4,7 @@ This is a language I want to make in the future :)
 Pleas give me ideas of how it whouled have worked. By making a issue or a comment on: https://scratch.mit.edu/users/stio_studio/
 
 ### Options on variable:
-```js
+```
 number / num 
 
 string / text
@@ -25,7 +25,7 @@ Anything that can be an option is to how the variable is stored and used.
 
 ### Variabel definitions
 Of pretty much all variables defenisions that exist, we have those:
-```js
+```
 var
 
 let
@@ -202,7 +202,7 @@ function (_string1)contains(_string2);
 ```
 ### How to get the raw function
 This is because all functions runs automaticly, even if they don't have a () in it
-```js
+```
 |I_am_a_function|
 ```
 
