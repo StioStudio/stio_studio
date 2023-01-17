@@ -21,11 +21,11 @@ class
 int / float
 ```
 
-Anything that can be an option is to how the variable is stored and used.
+Anything that can be an option (existing types, even your own classes and more), are to represent how the variable is being stored and used.
 
 
-### Variabel definitions
-Of pretty much all variables defenisions that exist, we have those:
+### Variable definitions
+Of pretty much all variable defintions that exist, we have those:
 ```
 var
 
