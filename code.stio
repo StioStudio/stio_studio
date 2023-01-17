@@ -1,5 +1,5 @@
 
-console.show()
+console.show(); hello
 
 var my_window = window.make
 my_window.open
