@@ -1,9 +1,10 @@
 # stio_studio
 
 This is a language I want to make in the future :)
-Pleas give me ideas of how it whouled have worked. By making a issue or a comment on: https://scratch.mit.edu/users/stio_studio/
 
-### Options on variable:
+Please give me ideas of how it would work, by making a issue here on github or a comment on my [scratch profile](https://scratch.mit.edu/users/stio_studio/)!
+
+### Options for variables:
 ```
 number / num 
 
