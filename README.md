@@ -1,9 +1,10 @@
 # stio_studio
 
 This is a language I want to make in the future :)
-Pleas give me ideas of how it whouled have worked. By making a issue or a comment on: https://scratch.mit.edu/users/stio_studio/
 
-### Options on variable:
+Please give me ideas of how it would work, by making a issue here on github or a comment on my [scratch profile](https://scratch.mit.edu/users/stio_studio/)!
+
+### Options for variables:
 ```
 number / num 
 
@@ -20,11 +21,11 @@ class
 int / float
 ```
 
-Anything that can be an option is to how the variable is stored and used.
+Anything that can be an option (existing types, even your own classes and more), are to represent how the variable is being stored and used.
 
 
-### Variabel definitions
-Of pretty much all variables defenisions that exist, we have those:
+### Variable definitions
+Of pretty much all variable defintions that exist, we have those:
 ```
 var
 
@@ -199,6 +200,20 @@ function length_of(_string);
 
 function (_string1)contains(_string2);
 
+number 0; // A build in return of 0
+number 1; // A build in return of 1
+number 2; // A build in return of 2
+number 4; // A build in return of 4
+number 5; // A build in return of 5
+number 6; // A build in return of 6
+number 7; // A build in return of 7
+number 8; // A build in return of 8
+number 9; // A build in return of 9
+
+function [a]+[b];
+function [a]-[b];
+function [a]*[b];
+function [a]/[b];
 ```
 ### How to get the raw function
 This is because all functions runs automaticly, even if they don't have a () in it
