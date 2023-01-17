@@ -199,15 +199,15 @@ function length_of(_string);
 
 function (_string1)contains(_string2);
 
-num 0 = // A build in return of 0
-num 1 = // A build in return of 1
-num 2 = // A build in return of 2
-num 4 = // A build in return of 4
-num 5 = // A build in return of 5
-num 6 = // A build in return of 6
-num 7 = // A build in return of 7
-num 8 = // A build in return of 8
-num 9 = // A build in return of 9
+number 0 = // A build in return of 0
+number 1 = // A build in return of 1
+number 2 = // A build in return of 2
+number 4 = // A build in return of 4
+number 5 = // A build in return of 5
+number 6 = // A build in return of 6
+number 7 = // A build in return of 7
+number 8 = // A build in return of 8
+number 9 = // A build in return of 9
 ```
 ### How to get the raw function
 This is because all functions runs automaticly, even if they don't have a () in it
