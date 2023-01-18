@@ -12,6 +12,7 @@ function say (msg) {
 `
         console.log(rem);
         
+        
     },
     /**Gives an array of each line
      */
@@ -21,7 +22,14 @@ function say (msg) {
 }
 
 let options = {
-    cares_about_enter: true,
+    comments: {
+        starts_with: [["//"], ["/*"], ["#"]],
+
+        ends_with: [[";",`
+`], ["*/"], [`
+`]]
+
+    }
 }
 
 let files = [];
@@ -53,3 +61,9 @@ function run(_file) {
     }
     rem = comp.take_away_comments(_file)
 }
+
+
+
+
+
+
