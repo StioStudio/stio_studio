@@ -214,6 +214,8 @@ function [a]+[b];
 function [a]-[b];
 function [a]*[b];
 function [a]/[b];
+
+function raw[a]; // Gives the thing you gave it as raw (variabel = options, name, value, and more)
 ```
 ### How to get the raw function
 This is because all functions runs automaticly, even if they don't have a () in it
