@@ -20,6 +20,10 @@ function say (msg) {
     }
 }
 
+let options = {
+    cares_about_enter: true,
+}
+
 let files = [];
 
 /**Gives you an string of the file you specified
