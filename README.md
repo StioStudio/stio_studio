@@ -214,14 +214,43 @@ function [a]+[b];
 function [a]-[b];
 function [a]*[b];
 function [a]/[b];
+
 ```
+
+```stio
+
+function raw[a]; // Returns RawData struct with values of the given variable/function or other objects (variable = options, name, value, and more)
+
+```
+
+It returns a RawData struct with values about the object you gave it. Here is a example from a Vector2 const
+
+```
+var { Vec2, const } variable = Vec2{5, 5};
+
+console.log(raw variable)
+```
+
+Returns:
+```
+RawData {
+   options = { Vec2, const }
+   name = "variable"
+   value = Vec2 { 5, 5 } 
+}
+```
+
+--------------------
+
 ### How to get the raw function
 This is because all functions runs automaticly, even if they don't have a () in it
 ```
 |I_am_a_function|
 ```
 
-### Some ways to make functions/variables
+-----------
+
+### Ways to make functions/variables
 ```js
 //making the function
 function hello(hello) = {
@@ -243,7 +272,7 @@ function [a]+[b]hei = {
 ////// Classes and structs
 
 // create the Vec2 class and print function for it
-class Vec2 = {
+class Vector2 = {
     let x { int }
     let y { int }
 
@@ -254,10 +283,19 @@ class Vec2 = {
 }
 // using the function
 
-var {Vec2, const} vec = Vec2(20, 30)
+var {Vector2, const} vec = Vector2(20, 30)
 
-Vec2.print(); // prints the x and y values
+vec.print(); // prints the x and y values
 
+// Structs
+
+
+struct Vec2 = {
+    let x { int }
+    let y { int }
+}
+
+let vec = Vec2{ 5, 5 }
 
 ```
 
