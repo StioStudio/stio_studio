@@ -1,4 +1,6 @@
 
+// This code is just me messing with how it whould have worked
+
 console.show(); hello
 
 var my_window = window.make
@@ -18,10 +20,16 @@ var {const, global, obj} test(a)(e)what = {
 console.log(test(2)(3)what.hi)
 //logs 5
 
-function if(bool _boolean)then(function _code) = {
+function if[bool _boolean]then(function _code) = {
     if(_boolean){
         _code
     }
 }
 
+if true then {
+    hello()
+}
 
+console.show
+console.print.line"open url"
+open.website(console.input)
