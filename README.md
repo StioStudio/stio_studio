@@ -245,7 +245,7 @@ RawData {
 ### How to get the raw function
 This is because all functions runs automaticly, even if they don't have a () in it
 ```
-|I_am_a_function|
+`I_am_a_function`
 ```
 
 -----------
