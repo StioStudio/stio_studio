@@ -22,7 +22,7 @@ int / float
 
 locked
 ```
-`loced` is a option that makes it so you can use it right beside other variables.
+`locked` is a option that makes it so you can use it right beside other variables.
 ```
 function [num _num1]:[num _num2] = {
     return _num1 * _num2;
