@@ -38,8 +38,8 @@ The down side is that you can not use that word somewhere else
 Anything that can be an option (existing types, even your own classes and more), are to represent how the variable is being stored and used.
 
 
-### Variable definitions
-Of pretty much all variable defintions that exist, we have those:
+### Variable definition keywords 
+Of pretty much all keywords that exist in world of programming, we have these:
 ```
 var
 
