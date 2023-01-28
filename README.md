@@ -19,7 +19,21 @@ object / obj / struct
 class
 
 int / float
+
+locked
 ```
+`loced` is a option that makes it so you can use it right beside other variables.
+```
+function [num _num1]:[num _num2] = {
+    return _num1 * _num2;
+};
+
+let hi = 5;
+let wow = 9;
+
+console.log(hi:wow);
+```
+The down side is that you can not use that word somewhere else
 
 Anything that can be an option (existing types, even your own classes and more), are to represent how the variable is being stored and used.
 
