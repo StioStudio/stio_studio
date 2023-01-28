@@ -191,19 +191,20 @@ function squareroot(num _nun);
 function pick_random(num _num1)to(num _num2);
 function random_from(num _num1)to(num _num2);
 
-function (bool _bool1)and(bool _bool2);
-function (bool _bool1)&(bool _bool2);
-function (bool _bool1)&&(bool _bool2);
+function [bool _bool1]and[bool _bool2];
+function {locked} [bool _bool1]&[bool _bool2];
+function {locked} [bool _bool1]&&[bool _bool2];
 
 function (bool _bool1)nand(bool _bool2);
 
-function (bool _bool1)or(bool _bool2);
-function (bool _bool1)|(bool _bool2);
-function (bool _bool1)||(bool _bool2);
+function [bool _bool1]or[bool _bool2];
+function {locked} [bool _bool1]|[bool _bool2];
+function {locked} [bool _bool1]||[bool _bool2];
 
 function (bool _bool1)xor(bool _bool2);
 
 function not(bool _bool);
+function {locked} ![bool _bool];
 
 function join(_string1)with(_string2);
 function join(_string1)(_string2);
@@ -224,10 +225,10 @@ number 7; // A build in return of 7
 number 8; // A build in return of 8
 number 9; // A build in return of 9
 
-function [a]+[b];
-function [a]-[b];
-function [a]*[b];
-function [a]/[b];
+function {locked} [a]+[b];
+function {locked} [a]-[b];
+function {locked} [a]*[b];
+function {locked} [a]/[b];
 
 ```
 
