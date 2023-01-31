@@ -4,7 +4,10 @@ This is a language I want to make in the future :)
 
 Please give me ideas of how it should work, by making a issue here on github or a comment on my [scratch profile](https://scratch.mit.edu/users/stio_studio/)!
 
-### Options for variables:
+### What I want with my language 
+That you can change it to your liking. You will not be stopped by anything. You can use any word except `()` `{}` `[]` `` and space
+
+### Options for variables
 ```
 number / num 
 
